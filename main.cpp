@@ -29,6 +29,7 @@ int main()
     std::cout << "\n==== SKIP SPACES TESTS ====\n";
     test("My Cool String!", "mycool string!", true);
     test(" My Cool String ", "mycool string", true);
+    test("Another string", "mycoolstring", true);
 
     std::cout << "\n==== MAX CHAR TESTS ====\n";
     test("abcdef", "abcxyz", false, 3);
